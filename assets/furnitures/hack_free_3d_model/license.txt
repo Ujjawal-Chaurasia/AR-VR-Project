@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hack Free 3D Model
+* source:	https://sketchfab.com/3d-models/hack-free-3d-model-24dec1d239c14e9192ae00214000f1b0
+* author:	cont.limaferreira.everton (https://sketchfab.com/cont.limaferreira.everton)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hack Free 3D Model" (https://sketchfab.com/3d-models/hack-free-3d-model-24dec1d239c14e9192ae00214000f1b0) by cont.limaferreira.everton (https://sketchfab.com/cont.limaferreira.everton) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Projector
+* source:	https://sketchfab.com/3d-models/projector-b002e5f720074145a522099542c02f1b
+* author:	ChelseaM (https://sketchfab.com/ChelseaM)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Projector" (https://sketchfab.com/3d-models/projector-b002e5f720074145a522099542c02f1b) by ChelseaM (https://sketchfab.com/ChelseaM) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

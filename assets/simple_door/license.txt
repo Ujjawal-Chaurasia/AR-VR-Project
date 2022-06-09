@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Door
+* source:	https://sketchfab.com/3d-models/simple-door-cf1ececa896849e2a1572b8c54ca771d
+* author:	AgfaSteve (https://sketchfab.com/AgfaSteve)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Door" (https://sketchfab.com/3d-models/simple-door-cf1ececa896849e2a1572b8c54ca771d) by AgfaSteve (https://sketchfab.com/AgfaSteve) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

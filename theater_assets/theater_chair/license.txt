@@ -1,0 +1,11 @@
+Model Information:
+* title:	Theater Chair
+* source:	https://sketchfab.com/3d-models/theater-chair-874c297a1c474b92a7d25f2803bb3b8b
+* author:	ivanrighi (https://sketchfab.com/ivanrighi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Theater Chair" (https://sketchfab.com/3d-models/theater-chair-874c297a1c474b92a7d25f2803bb3b8b) by ivanrighi (https://sketchfab.com/ivanrighi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

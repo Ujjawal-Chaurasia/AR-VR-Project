@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Room</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-room-component/dist/aframe-room-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene cursor="rayorigin:mouse">
+      <a-assets>
+        <img
+          id="wallTexture"
+          src="game_assets/gameWall.jpeg"
+        />
+        <img
+          id="gameFloorTexture"
+          src="game_assets/gameFloorTexture.jpeg"
+        />
+        <img
+          id="gameCeiling"
+          src="game_assets/gameCeiling.jpeg"
+        />
+        <audio id="sound2" src="game_assets/gameRoom.mp3" autoplay loop="true"></audio>
+        <a-asset-item
+          id="dartsBoard"
+          src="game_assets/dart_board/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="chandelier"
+          src="game_assets\chandelier_black/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="poolTable"
+          src="game_assets/pool_table_animation/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="gameLineup"
+          src="game_assets/sg_games_lineup/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="pokerTable"
+          src="game_assets/leonard_garcia_poker_table/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="barStool"
+          src="game_assets/bar_stool/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="beerGlass"
+          src="game_assets/beer_glass/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="fridge"
+          src="game_assets/fridge/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="barLight1"
+          src="game_assets/lamp_02_lowpoly/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="barLight2"
+          src="game_assets/fluorescent_lamp/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="Couch"
+          src="game_assets/comfy_chair/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="couchTable"
+          src="game_assets/couch_table/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      <a-entity
+        position="3 0.001 3.8"
+        movement-controls="speed: 0.05; constrainToNavMesh: true"
+      >
+        <a-camera
+          id="cam"
+          user-height="1"
+          look-controls="pointerLockEnabled: true"
+          wasd-controls="acceleration: 20;
+					 easing: 1000"
+        ></a-camera>
+      </a-entity>
+      <a-sound src="#sound2" volume="1"></a-sound>
+      <rw-room position="-4 0.001 -4" light="type: ambient; color: #CCC">
+        <a-plane
+          position="4 0 4"
+          width="8"
+          height="8"
+          rotation="-90 0 0"
+          material="side:front;src:#gameFloorTexture"
+        ></a-plane>
+        <rw-wall
+          position="8 0.001 0"
+          material="src:#wallTexture;repeat:4 4"
+        >
+          <a-entity
+            gltf-model="#dartsBoard"
+            position="5.944 1.5 0.0"
+            scale="0.01 0.01 0.01"
+            shadow="cast:false"
+          ></a-entity>
+        </rw-wall>
+        <a-entity 
+          gltf-model="#fridge" 
+          position="1.5 0 7.6" 
+          shadow="cast:false"
+          rotation="0 180 0"
+          scale="0.01 0.01 0.01"
+        ></a-entity>
+        <a-entity 
+          gltf-model="#Couch" 
+          position="5 -0.593 7.683"
+          rotation="0 180 0"
+          scale="0.3 0.3 0.3"
+        ></a-entity>
+        <a-entity 
+          gltf-model="#Couch" 
+          position="3.5 -0.593 7.683"
+          rotation="0 180 0"
+          scale="0.3 0.3 0.3"
+        ></a-entity>
+        <a-entity 
+          gltf-model="#couchTable" 
+          position="4.25 0 6.086"
+          rotation="0 180 0"
+          scale="1 1 1"
+        ></a-entity>
+        <a-entity
+          gltf-model="#poolTable"
+          position="2.437 0.73 1.425"
+          scale="0.002 0.002 0.002"
+          shadow="cast: true"
+          animation-mixer
+        >
+          <a-entity 
+          gltf-model="#barLight2" 
+          position="2.437 449.55 1.47"
+          shadow="cast: true"
+          scale="15 15 15"></a-entity>
+          <a-entity
+          light="type:spot; angle:53"
+          rotation="270 0 0"
+          castShadow="true"
+          position="4.109 594.287 7.828"></a-entity>
+        </a-entity>
+        <a-entity
+          gltf-model="#pokerTable"
+          position="0.477 0 6.7"
+          rotation="0 90 0"
+          shadow="cast: true"
+          scale="0.75 0.75 0.75"
+        >
+          <a-entity 
+          gltf-model="#barLight1" 
+          position="4.125 1 8"
+          shadow="cast: true"
+          scale="0.7 0.7 0.7"></a-entity>
+          <a-entity
+          light="type: spot; angle: 37"
+          rotation="270 0 0"
+          castShadow="true"
+          position="4.109 2.483 7.828"></a-entity>
+          <a-entity 
+          gltf-model="#barLight1" 
+          position="5.45 1 8"
+          shadow="cast: true"
+          scale="0.7 0.7 0.7"></a-entity>
+          <a-entity
+          light="type: spot; angle: 37"
+          rotation="270 0 0"
+          castShadow="true"
+          position="6.777 2.483 7.828"></a-entity>
+          <a-entity 
+          gltf-model="#barLight1" 
+          position="6.775 1 8"
+          shadow="cast: true"
+          scale="0.7 0.7 0.7"></a-entity>
+          <a-entity
+          light="type: spot; angle: 37"
+          rotation="270 0 0"
+          castShadow="true"
+          position="5.466 2.483 7.828"></a-entity>
+          <a-entity 
+          gltf-model="#beerGlass" 
+          position="6.3 1.482 7.093"
+          shadow="cast: true"
+          scale="1 1 1"></a-entity>
+          <a-entity 
+          gltf-model="#beerGlass" 
+          position="4.8 1.482 7.093"
+          shadow="cast: true"
+          scale="1 1 1"></a-entity>
+          <a-entity 
+          gltf-model="#barStool" 
+          position="8.1 1 8"
+          shadow="cast: true"
+          scale="0.03 0.03 0.03"></a-entity>
+          <a-entity 
+          gltf-model="#barStool" 
+          position="6.3 1 6.7"
+          shadow="cast: true"
+          scale="0.03 0.03 0.03"></a-entity>
+          <a-entity 
+          gltf-model="#barStool" 
+          position="4.8 1 6.7"
+          shadow="cast: true"
+          scale="0.03 0.03 0.03"></a-entity>
+          <a-entity 
+          gltf-model="#barStool" 
+          position="2.932 1 8"
+          shadow="cast: true"
+          scale="0.03 0.03 0.03"></a-entity>
+          <a-entity 
+          gltf-model="#barStool" 
+          position="6.3 1 9.3"
+          shadow="cast: true"
+          scale="0.03 0.03 0.03"></a-entity>
+          <a-entity 
+          gltf-model="#barStool" 
+          position="4.8 1 9.3"
+          shadow="cast: true"
+          scale="0.03 0.03 0.03"></a-entity>
+        </a-entity>
+        <a-entity
+          gltf-model="#gameLineup"
+          position="0.542 -0.004 4.467"
+          scale="0.008 0.008 0.008"
+          shadow="cast:false"
+        ></a-entity>
+        <rw-wall
+          position="8 0.001 8"
+          material="side:double;src:#wallTexture;repeat:4 4"
+          shadow="cast:false"
+        ></rw-wall>
+        <rw-wall
+          position="0 0.001 8"
+          material="side:double;src:#wallTexture;repeat:4 4"
+          shadow="cast:false"
+        ></rw-wall>
+        <rw-wall
+          position="0 0.001 0"
+          material="side:double;src:#wallTexture;repeat:4 4"
+          shadow="cast:false"
+        ></rw-wall>
+        <a-plane
+          position="4 2.369 4"
+          width="8"
+          height="8"
+          rotation="-90 0 0"
+          material="side:double;src:#gameCeiling;repeat:4 4;roughness:0.8"
+          shadow="cast:false"
+        >
+          <a-entity 
+          gltf-model="#chandelier" 
+          position="0 0 -0.541"
+          shadow="cast: true"
+          rotation="90 0 0"
+          scale="0.005 0.005 0.005"></a-entity>
+        </a-plane>
+      </rw-room>
+    </a-scene>
+  </body>
+</html>

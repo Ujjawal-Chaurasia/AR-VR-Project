@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Theater</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-room-component/dist/aframe-room-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+     <script>
+    AFRAME.registerComponent('log', {
+    schema: {type: 'string'},
+  init: function () {
+    var stringToLog = this.data;
+    console.log(stringToLog);
+    var sceneEl = document.querySelector('a-scene');
+    var vid= sceneEl.querySelector('#mm');
+    vid.addEventListener('click', function (event) {
+  console.log('hiii');
+});
+  }
+});
+</script>  
+  </head>
+
+  <body>
+    <a-scene cursor="rayOrigin: mouse" log="Hello, Scene!" >
+      <a-assets>
+        <a-assets-item
+          id="theaterChair"
+          src="theater_assets/theater_chair/scene.gltf"
+        ></a-assets-item>
+        <a-assets-item
+          id="door"
+          src="./assets/door/scene.gltf"
+        ></a-assets-item>
+        <a-assets-item
+          id="ceilinglamp"
+          src="theater_assets/wooden_ceiling_lamp/scene.gltf"
+        ></a-assets-item>
+        <a-assets-item
+          id="projector"
+          src="theater_assets/projector/scene.gltf"
+        ></a-assets-item>
+        <video
+        
+          id="Movie"
+          loop="true"
+          src="theater_assets/birthdayVideo.mp4"
+          autoplay
+        ></video>
+        <!-- <video
+          id="Movie2"
+          loop="true"
+          src="theater_assets/HappyBirthday.mp4"
+          autoplay
+        ></video> -->
+        <img
+          id="floorTexture"
+          src="theater_assets/floorTexture.jpg"
+        />
+        <img
+          id="theaterWallTexture"
+          src="theater_assets/theaterWallTexture.jpg"
+        />
+        <img
+          id="starryNight"
+          src="theater_assets/starryNight.png"
+        />
+      </a-assets>
+
+      <a-entity position="0 1 0" movement-controls="speed: 0.15">
+        <a-camera position="0 .5 0" user-height="1" id="cam" wasd-controls="acceleration: 20" camera=""
+            rotation="" look-controls="" data-aframe-inspector-original-camera="" raycaster="objects: .clickable">
+        </a-camera>
+    </a-entity>
+      <rw-room position="-4 0.001 -4">
+        <a-plane
+        
+          material="color:white"
+          roation="90 90 0"
+          position="4 1.251 0.005"
+          height="2"
+          width="7"
+        ></a-plane>
+
+        <!--video-->
+        <a-video  id ="mm" src="#Movie" class="clickable"
+        width="7" height="2" position="4 1.251 0.005">
+          <!--play/Pause-->
+          <!-- <a-image id="videoControls" src="#play" position="0.07 0.04 0.07" scale="0.5 0.5 1" play-pause></a-image> -->
+        </a-video>
+        <!-- ceilinglamp -->
+        <a-entity
+        gltf-model="#ceilinglamp"
+        position="2 2.3 6"
+        scale="1 1 .6"
+        rotation="0 180 0"
+      ></a-entity>
+        <a-entity
+        gltf-model="#ceilinglamp"
+        position="6 2.3 6"
+        scale="1 1 .6"
+        rotation="0 180 0"
+      ></a-entity>
+        <a-entity
+        gltf-model="#ceilinglamp"
+        position="2 2.3 2"
+        scale="1 1 .6"
+        rotation="0 180 0"
+      ></a-entity>
+        <a-entity
+        gltf-model="#ceilinglamp"
+        position="6 2.3 2"
+        scale="1 1 .6"
+        rotation="0 180 0"
+      ></a-entity>
+      <!-- door -->
+      <a-entity gltf-model="#door" animation-mixer=""  position="0.08 .9 7.4"
+      scale=".01 .008 .008" rotation="0 0 0" onclick="window.location='/gameRoom.html'" ></a-entity>
+
+        <!--Theater Chairs-->
+        <a-entity
+          gltf-model="#theaterChair"
+          position="2 0.001 2"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="2 0.001 4"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="2 0.001 6"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="4 0.001 2"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="4 0.001 4"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="4 0.001 6"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="6 0.001 2"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="6 0.001 4"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+        <a-entity
+          gltf-model="#theaterChair"
+          position="6 0.001 6"
+          scale="0.75 0.75 0.75"
+          rotation="0 180 0"
+        ></a-entity>
+
+        <!--Floor-->
+        <a-plane
+          position="4 0.001 4"
+          width="8"
+          height="8"
+          material=";src:#floorTexture; repeat:2 2"
+          rotation="-90 0 0"
+        ></a-plane>
+
+        <!--Walls-->
+        <rw-wall
+          position="8 0.001 0"
+          material="side:double;src:#theaterWallTexture;repeat:2 1;color: gray"
+        ></rw-wall>
+        <rw-wall
+          position="8 0.001 8"
+          material="side:double;src:#theaterWallTexture;repeat:2 1;color: gray"
+        ></rw-wall>
+        <rw-wall
+          position="0 0.001 8"
+          material="side:double;src:#theaterWallTexture;repeat:2 1;color: gray"
+        ></rw-wall>
+        <rw-wall
+          position="0 0.001 0"
+          material="side:double;src:#theaterWallTexture;repeat:2 1;color: gray"
+        >
+        </rw-wall>
+
+        <!--Ceiling-->
+        <a-plane
+          position="4 2.402 4"
+          width="8"
+          height="8"
+          rotation="-90 0 0"
+          material="side:double;color:black; repeat:4 4"
+        >
+          <a-entity
+            gltf-model="#projector"
+            position="0.034 -2 -0.169"
+            rotation="-90 -90 -90"
+            scale="0.006 0.005 0.006"
+          >
+          </a-entity>
+        </a-plane>
+      </rw-room>
+    </a-scene>
+  </body>
+</html>

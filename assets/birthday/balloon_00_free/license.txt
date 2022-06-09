@@ -1,0 +1,11 @@
+Model Information:
+* title:	Balloon_00 Free
+* source:	https://sketchfab.com/3d-models/balloon-00-free-4205e161189a4315996600642cdbb511
+* author:	paulyang (https://sketchfab.com/PaulYang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Balloon_00 Free" (https://sketchfab.com/3d-models/balloon-00-free-4205e161189a4315996600642cdbb511) by paulyang (https://sketchfab.com/PaulYang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

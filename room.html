@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>Hello</h1> -->
+    <a-scene cursor="rayOrigin: mouse" light="defaultLightsEnabled: false">
+        <a-assets>
+            <!-- guitar -->
+            <a-asset-item id="guitar-o" src="./assets/guitar.obj"></a-asset-item>
+            <a-asset-item id="guitar-m" src="./assets/guitar.mtl"></a-asset-item>
+            <!-- door -->
+            <a-asset-item id="door" src="./assets/door/scene.gltf"></a-asset-item>
+            <!-- curtain -->
+            <a-asset-item id="curtain" src="./assets/wall decoratives/window_curtain/scene.gltf"></a-asset-item>
+            <!-- bed -->
+            <a-asset-item id="bed" src="./assets/bed/scene.gltf"></a-asset-item>
+            <!-- coffee table -->
+            <a-asset-item id="table1" src="./assets/vintage_coffee_table_70s_02_freebie/scene.gltf"></a-asset-item>
+
+
+            <!-- sofa -->
+            <a-asset-item id="sofa" src="./assets/furnitures/modern__sofa/scene.gltf"></a-asset-item>
+            <!-- desk -->
+            <a-asset-item id="desk1" src="./assets/furnitures/desk1/scene.gltf"></a-asset-item>
+            <!-- chairfree -->
+            <a-asset-item id="chair_free" src="./assets/chair_free/scene.gltf"></a-asset-item>
+            <!-- computer -->
+            <a-asset-item id="computer" src="./assets/furnitures/hack_free_3d_model/scene.gltf"></a-asset-item>
+            <!-- computerchair -->
+            <a-asset-item id="computer_chair" src="./assets/furnitures/simple_modern_chair/scene.gltf"></a-asset-item>
+<!-- Birthdaystuffs -->
+
+            <!-- cake -->
+            <a-asset-item id="cake" src="./assets/cake/scene.gltf"></a-asset-item>
+            <!-- giftbox -->
+            <a-asset-item id="gift1" src="./assets/gift_box_3/scene.gltf"></a-asset-item>
+            <a-asset-item id="gift2" src="./assets/birthday/present_1_low_poly/scene.gltf"></a-asset-item>
+            <a-asset-item id="gift3" src="./assets/birthday/birthday_gift/scene.gltf"></a-asset-item>
+
+            <!-- jjdoll -->
+            <a-asset-item id="jjdoll" src="./assets/birthday/jj_edit/scene.gltf"></a-asset-item>
+            <!-- ballon -->
+            <a-asset-item id="ballon" src="./assets/birthday/balloon_00_free/scene.gltf"></a-asset-item>
+            <a-asset-item id="ballon1" src="./assets/birthday/balloon/scene.gltf"></a-asset-item>
+            <!-- candelier -->
+            <a-asset-item id="candelier" src="./assets/lamp_chandelier_free_model/scene.gltf"></a-asset-item>
+            <!-- wall light -->
+            <a-asset-item id="wall-light" src="./assets/wall decoratives/wall_light/scene.gltf"></a-asset-item>
+
+            <!-- hp birthday sign -->
+            <a-asset-item id="hpbsign" src="./assets/birthday/happy_birthday_sign/scene.gltf"></a-asset-item>
+
+
+            <!-- walls -->
+            <img id="wall-5" src="./assets/pexels-pixabay-276514.jpg">
+            <img id="wall-2" src="./assets/wall1.jpg">
+            <img id="wall-1" src="./assets/walls/wallwhite.jpg">
+            <img id="wall-3" src="./assets/walls/roof1.jpg">
+            <!-- floor -->
+            <img id="floor-1" src="./assets/walls/floor1.jpg">
+            <img id="floor-2" src="./assets/walls/floor2.png">
+
+            <!-- wall design -->
+			<img id="wall-design-1" src="./assets/wall decoratives/walldesign2.png">
+            <!-- audio -->
+            <audio id="sound1" src="./sound/Tune - Happy Birthday Song.mp3" autoplay></audio>
+
+
+        </a-assets>
+
+
+        <a-entity position="0 1 0" movement-controls="speed: 0.15">
+            <a-camera position="0 1.5 0" user-height="1" id="cam" wasd-controls="acceleration: 20" camera=""
+                rotation="" look-controls="" data-aframe-inspector-original-camera="">
+            </a-camera>
+        </a-entity>
+
+        <!-- door -->
+        <a-entity gltf-model="#door" animation-mixer=""  position="7.38 1.1 -12"
+        scale=".01 .01 .01" rotation="0 90 0" onclick="window.location='/theater.html'" ></a-entity>
+        <!-- window curtain -->
+        <a-entity gltf-model="#curtain" animation-mixer=""  position="3 .3 .8"
+        scale="30 30 30" rotation="0 90 0"></a-entity>
+        </a-entity>
+
+        <!-- sofa -->
+        <a-entity gltf-model="#sofa" animation-mixer="" position="-3.8 .4 -4.8"
+            scale="1.8 1.8 1.8" rotation="0 90 0"></a-entity>
+            <a-entity gltf-model="#sofa" animation-mixer="" position="0.2 .4 -2.8"
+            scale="1.8 1.8 1.8" rotation="0 180 0"></a-entity> 
+            <!-- bed -->
+            <a-entity gltf-model="#bed" animation-mixer="" position="-3 0 -8.7"
+            scale=".0015 .002 .002" rotation="0 90 0"></a-entity>
+            <!-- bed wall light-->
+            <a-entity gltf-model="#wall-light" animation-mixer="" position="-5.5 2 -12"
+            scale=".011 .011 .011" rotation="0 0 0"></a-entity>
+        <!-- table1 -->
+        <a-entity gltf-model="#table1" animation-mixer="" position="0 0 -5"
+                    scale="2.3 2.3 2.3" rotation="0 0 0"></a-entity> 
+                    <!-- desk -->
+                    <a-entity gltf-model="#desk1" animation-mixer="" position="-7.25 0 2.97297"
+                    scale=".005 .005 .007" rotation="0 90 0"></a-entity> 
+                    <!-- chair_free-->
+                    <a-entity gltf-model="#chair_free" animation-mixer="" position="-6.75 0 2.97297"
+                    scale=".1 .1 .12" rotation="0 -90 0"></a-entity> 
+        <!-- computer -->
+         <a-entity gltf-model="#computer" animation-mixer="" position="7.4 0 2.4"
+                    scale="1.6 2 2" rotation="0 -90 0"></a-entity> 
+                    <!-- computer chair -->
+         <a-entity gltf-model="#computer_chair" animation-mixer="" position="6.6 0 2.2"
+        scale="1.3 1.3 1.3" rotation="0 90 0"></a-entity> 
+        
+        <!-- candelier-->
+        <a-entity gltf-model="#candelier" animation-mixer="" position="0 6.1 -5"
+        scale="2 2 2" rotation="0 0 0" >
+        <!-- <a-entity light ="type: point ;intensity: 10;castShadow:false" position= "0 1 -5" >  -->
+        </a-entity>
+        </a-entity>
+        <!-- cake-->
+        <a-entity gltf-model="#cake" animation-mixer="" position="0 0.9 -5"
+                    scale=".008 .008 .008" rotation="0 0 0"></a-entity> 
+        <!-- gift1 -->
+        <a-entity gltf-model="#gift1" animation-mixer="" position="2 .8 -6.7"
+                    scale=".6 .6 .6" rotation="0 0 0"></a-entity>
+        <!-- gift2 -->
+        <a-entity gltf-model="#gift2" animation-mixer="" position="1 1 -4.3"
+                    scale=".01 .01 .01" rotation="0 0 0"></a-entity>
+        <!-- gift3 -->
+        <a-entity gltf-model="#gift3" animation-mixer="" position="1.7 1 -4"
+                    scale=".1 .1 .1" rotation="0 0 0"></a-entity>
+        <!-- jjdoll -->
+        <a-entity gltf-model="#jjdoll" animation-mixer="" position="-2 .8 -5.7"
+                    scale=".01 .01 .005" rotation="0 0 0" 
+                    animation="property: rotation; to: 0 360 0; repeat: indefinite; dir: normal;easing:linear; dur: 4000; loop:true"></a-entity>
+        <!-- ballon -->
+        <a-entity gltf-model="#ballon" animation-mixer="" position="2.5 1.1 -3.7"
+                    scale=".01 .01 .005" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#ballon1" animation-mixer="" position="-2 1.8 -5.7"
+                    scale=".01 .01 .005" rotation="0 0 0"></a-entity>
+        <!-- hpb sign -->
+        <a-entity gltf-model="#hpbsign" animation-mixer="" position="0 2.5 -6.7"
+                    scale="1 1 1" rotation="0 -90 0"></a-entity>
+
+
+<!-- walls and designs -->
+
+        <!-- cealing -->         
+        <a-plane 
+        position="0 8 -4"
+        width="16"
+        height="16"
+        material="side:double;color: #fff;src: #wall-3;repeat:5 5;
+        normal-map: #wall-3;normal-texture-repeat: 5 5;normal-scale: 1 1 1;" 
+        rotation="-90 0 0"
+        scale="1 1 1"
+        ></a-plane>
+        <!-- floor -->
+        <a-plane position="0 0 -4" width="16" height="16" material="side:double;color: #fff;src: #floor-1;repeat:11 11;
+        normal-map: #floor-2;normal-texture-repeat: 1 1;normal-scale: 1 1 1;" rotation="90 0 0" scale="1 1 1"></a-plane>
+        <!--  left wall-->
+        <a-plane position="-8 4 -4" width="16" height="8" material="side:double;color: #fff;src: #wall-1;repeat:2 1;
+        normal-map: #wall-1;normal-texture-repeat: 1 1;normal-scale: 1 1 1;" rotation="0 90 0" scale="1 1 1"></a-plane>
+        <!-- right wall -->
+        <a-plane position="8 4 -4" width="16" height="8" material="side:double;color: #fff;src: #wall-1;repeat:2 1;
+        normal-map: #wall-1;normal-texture-repeat: 1 1;normal-scale: 1 1 1;" rotation="0 90 0" scale="1 1 1"></a-plane>
+        <!-- front near wall -->
+        <a-plane position="0 4 4" width="16" height="8" material="side:double;color: #fff;src: #wall-1;repeat:2 1;
+        normal-map: #wall-1;normal-texture-repeat: 1 1;normal-scale: 1 1 1;" rotation="0 0 0" scale="1 1 1"></a-plane>
+        <!-- front away wall -->
+        <a-plane position="0 4 -12" width="16" height="8" material="side:double;color: #fff;src: #wall-1;repeat:2 1;
+        normal-map: #wall-1;normal-texture-repeat: 1 1;normal-scale: 1 1 1;" rotation="0 0 0" scale="1 1 1"></a-plane>
+        <!-- wall design -->
+		<!-- <a-image position="-7.92964 3.54607 -10.05622" src="#wall-design-1" scale="1 1 1.01" material="" geometry="width: 3; height: 8" rotation="0 90 0"></a-image> -->
+
+
+<!-- sounds section -->
+        <a-sound src="#sound1"  loop="true" volume ="10"></a-sound>
+
+
+
+<!-- lights section -->
+<!-- <a-entity light="type: ambient; color: #BBB"></a-entity>
+<a-entity light="type: directional; color: #FFF; intensity: 0.6" position="-0.5 1 1"></a-entity> -->
+         <a-light type="ambient" color="#ffcccc"></a-light>
+        <a-light type="point" color="#00FF00" position="0 4.5 -8" castshadow="true" light="color: #f9e353; intensity: 10; distance: 15" animation="property: light.intensity; from:0; to: 2; repeat: indefinite; dur: 3000; easing: linear;loop: true; dir:alternate"></a-light>
+        <a-sky color="#ECECEC"></a-sky> 
+    </a-scene>
+</body>
+</html>

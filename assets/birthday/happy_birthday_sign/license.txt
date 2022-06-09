@@ -1,0 +1,11 @@
+Model Information:
+* title:	Happy Birthday Sign
+* source:	https://sketchfab.com/3d-models/happy-birthday-sign-7cac3f605db640cd9f490a053240ead4
+* author:	Duznot (https://sketchfab.com/duz_vr)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Happy Birthday Sign" (https://sketchfab.com/3d-models/happy-birthday-sign-7cac3f605db640cd9f490a053240ead4) by Duznot (https://sketchfab.com/duz_vr) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

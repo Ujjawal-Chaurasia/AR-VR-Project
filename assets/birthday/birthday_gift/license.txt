@@ -1,0 +1,11 @@
+Model Information:
+* title:	Birthday Gift
+* source:	https://sketchfab.com/3d-models/birthday-gift-98e2743b7ddf401583d0ce5440cb0198
+* author:	harri.wildridge (https://sketchfab.com/harri.wildridge)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Birthday Gift" (https://sketchfab.com/3d-models/birthday-gift-98e2743b7ddf401583d0ce5440cb0198) by harri.wildridge (https://sketchfab.com/harri.wildridge) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

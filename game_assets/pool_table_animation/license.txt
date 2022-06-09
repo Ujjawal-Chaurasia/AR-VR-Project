@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pool Table (Animation)
+* source:	https://sketchfab.com/3d-models/pool-table-animation-0f2ae181a2dd4b00a6ec25073692037f
+* author:	Anthony Yanez (https://sketchfab.com/paulyanez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pool Table (Animation)" (https://sketchfab.com/3d-models/pool-table-animation-0f2ae181a2dd4b00a6ec25073692037f) by Anthony Yanez (https://sketchfab.com/paulyanez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

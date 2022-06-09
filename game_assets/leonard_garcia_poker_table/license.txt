@@ -1,0 +1,11 @@
+Model Information:
+* title:	Leonard_Garcia_Poker_Table
+* source:	https://sketchfab.com/3d-models/leonard-garcia-poker-table-95d7a48c30354477a170af31cbcb513c
+* author:	Leonard Garcia (https://sketchfab.com/Leonard_Garcia0310)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Leonard_Garcia_Poker_Table" (https://sketchfab.com/3d-models/leonard-garcia-poker-table-95d7a48c30354477a170af31cbcb513c) by Leonard Garcia (https://sketchfab.com/Leonard_Garcia0310) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	fluorescent lamp
+* source:	https://sketchfab.com/3d-models/fluorescent-lamp-88d20c96b13142b89c2aae321840271d
+* author:	valentin321 (https://sketchfab.com/valentin321)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "fluorescent lamp" (https://sketchfab.com/3d-models/fluorescent-lamp-88d20c96b13142b89c2aae321840271d) by valentin321 (https://sketchfab.com/valentin321) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

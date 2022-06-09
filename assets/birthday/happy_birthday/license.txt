@@ -1,0 +1,11 @@
+Model Information:
+* title:	Happy Birthday  !
+* source:	https://sketchfab.com/3d-models/happy-birthday-ac67d705551b4420acc003235102cf65
+* author:	Olga Nabatova (https://sketchfab.com/Nabatova)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Happy Birthday  !" (https://sketchfab.com/3d-models/happy-birthday-ac67d705551b4420acc003235102cf65) by Olga Nabatova (https://sketchfab.com/Nabatova) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

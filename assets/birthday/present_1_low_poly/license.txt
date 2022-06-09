@@ -1,0 +1,11 @@
+Model Information:
+* title:	Present 1 Low Poly
+* source:	https://sketchfab.com/3d-models/present-1-low-poly-403cf4e5ce814903bd1fbde1d2da7122
+* author:	FunFant (https://sketchfab.com/funfant)
+
+Model License:
+* license type:	CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
+* requirements:	Author must be credited. Modified versions can not be distributed. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Present 1 Low Poly" (https://sketchfab.com/3d-models/present-1-low-poly-403cf4e5ce814903bd1fbde1d2da7122) by FunFant (https://sketchfab.com/funfant) licensed under CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)

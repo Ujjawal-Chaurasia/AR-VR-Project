@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dart Board
+* source:	https://sketchfab.com/3d-models/dart-board-c9f92a2dccb44a789afe1710a4c63e9b
+* author:	Billy Jackman (https://sketchfab.com/billyjackman3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dart Board" (https://sketchfab.com/3d-models/dart-board-c9f92a2dccb44a789afe1710a4c63e9b) by Billy Jackman (https://sketchfab.com/billyjackman3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

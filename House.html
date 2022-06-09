@@ -1,0 +1,223 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/@tlaukkan/aframe-atmosphere-component@0.0.2/atmosphere.js"></script>
+  </head>
+  <body>
+    <a-scene cursor="rayOrigin: mouse">
+      <a-assets>
+        <audio id="sound1" src="./sound/houseSound.mp3" autoplay></audio>
+        <a-assets-item
+          id="house"
+          src="https://cdn.glitch.me/2a543354-4186-467c-b47f-fbfaad31b960/victorian_house.glb?v=1654683115200"
+        ></a-assets-item>
+        <a-asset-item id="door" src="./assets/simple_door/scene.gltf"></a-asset-item>
+
+        <img
+          id="groundTexture"
+          src="https://cdn.glitch.global/2a543354-4186-467c-b47f-fbfaad31b960/houseGroundTexture.jpg?v=1654715082331"
+        />
+        <a-assets-item
+          id="parasol"
+          src="https://cdn.glitch.global/2a543354-4186-467c-b47f-fbfaad31b960/umbrella_japanese_parasol.glb?v=1654701363503"
+        ></a-assets-item>
+        <a-assets-item
+          id="chairs"
+          src="https://cdn.glitch.global/2a543354-4186-467c-b47f-fbfaad31b960/garden_set_victorian.glb?v=1654701263102"
+        ></a-assets-item>
+        <a-assets-item
+          id="garage"
+          src="https://cdn.glitch.me/2a543354-4186-467c-b47f-fbfaad31b960/graffiti_garage.glb?v=1654684406297"
+        ></a-assets-item>
+        <a-assets-item
+          id="car"
+          src="https://cdn.glitch.me/2a543354-4186-467c-b47f-fbfaad31b960/car.glb?v=1654691068797"
+        ></a-assets-item>
+        <a-assets-item
+          id="hedge"
+          src="https://cdn.glitch.global/2a543354-4186-467c-b47f-fbfaad31b960/hedge.glb?v=1654701905938"
+        ></a-assets-item>
+        <a-assets-item
+          id="goldenTree"
+          src="https://cdn.glitch.me/2a543354-4186-467c-b47f-fbfaad31b960/beautiful_autumn.glb?v=1654718656631"
+        ></a-assets-item>
+        <a-assets-item
+          id="bodhiTree"
+          src="https://cdn.glitch.global/2a543354-4186-467c-b47f-fbfaad31b960/bodhi_tree.glb?v=1654719746550"
+        ></a-assets-item>
+        <a-assets-item
+          id="parkBench"
+          src="https://cdn.glitch.global/2a543354-4186-467c-b47f-fbfaad31b960/parkBench.glb?v=1654720743338"
+        ></a-assets-item>
+        <a-assets-item
+          id="ramenShop"
+          src="https://cdn.glitch.me/2a543354-4186-467c-b47f-fbfaad31b960/ramenShop.glb?v=1654721936623"
+        ></a-assets-item>
+        
+      </a-assets>
+       <a-entity id="environment" atmosphere="lightPosition: 1 5 -2;">
+      </a-entity>
+        <a-entity position="15 5 19" movement-controls="speed: 3">
+          <a-camera position="30.1 1.6 -4" user-height="2" id="cam" wasd-controls="acceleration: 70" camera=""
+              rotation="" look-controls="" data-aframe-inspector-original-camera="">
+          </a-camera>
+      </a-entity>
+      <a-sound src="#sound1" volume="1"></a-sound>
+      </a-entity>
+      <a-entity gltf-model="#door" animation-mixer=""  position="12 2 17.8"
+      scale=".4 .45 .4" rotation="0 90 0" onclick="window.location='/room.html'" ></a-entity>
+      <a-plane
+        src="#groundTexture"
+        rotation="-90 0 0"
+        position="0 0 0"
+        height="1000"
+        width="1000"
+        material="repeat:60 60"
+      ></a-plane>
+      <a-entity
+        gltf-model="#house"
+        position="0 4.58 0"
+        scale="3 3 3"
+      ></a-entity>
+      <a-entity
+        gltf-model="#garage"
+        rotation="0 90 0"
+        position="7.575 0 46.240"
+        scale="0.1 0.1 0.1"
+      >
+        <a-entity
+          gltf-model="#car"
+          position="0 32 0"
+          scale="50 50 50"
+        ></a-entity>
+      </a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="32 0 9"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="32 0 -2"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="32 0 -13"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="32 0 -24"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="28 0 -31.5"
+        rotation="0 0 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="17 0 -31.5"
+        rotation="0 0 0"
+        scale="0.08 0.064 0.09"
+      >
+        <a-entity
+          gltf-model="#parkBench"
+          position="261 0 284"
+          rotation=" 0 90 0"
+          scale="1.5 1.5 1.5"
+        ></a-entity>
+      </a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="6 0 -31.5"
+        rotation="0 0 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-5 0 -31.5"
+        rotation="0 0 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-16 0 -31.5"
+        rotation="0 0 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-27 0 -31.5"
+        rotation="0 0 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-30.8 0 -25.3"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-30.8 0 -14.5"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-30.8 0 -4.3"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-30.8 0 6.3"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-30.8 0 17"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#hedge"
+        position="-30.8 0 27"
+        rotation="0 90 0"
+        scale="0.08 0.064 0.09"
+      ></a-entity>
+      <a-entity
+        gltf-model="#goldenTree"
+        position="-3.65 -26.845 68.500"
+        scale="1.5 1.5 1.5"
+      ></a-entity>
+      <a-entity
+        gltf-model="#bodhiTree"
+        position="9.69 1.14 -55.45"
+        scale="1 1 1"
+      ></a-entity>
+      <a-entity gltf-model="#chairs" position="39.26 0 -47.27" scale="4 4 4">
+        <a-entity
+          gltf-model="#parasol"
+          position="0 3.5 0"
+          scale="0.06 0.06 0.06"
+        >
+        </a-entity>
+      </a-entity>
+      <a-entity
+        gltf-model="#ramenShop"
+        position="120 0 0"
+        rotation="0 -90 0"
+        scale="0.02 0.02 0.02"
+      ></a-entity> 
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lamp_02 lowpoly
+* source:	https://sketchfab.com/3d-models/lamp-02-lowpoly-0f5519beb6644e5ea714055382c20d5f
+* author:	chris_models (https://sketchfab.com/chris_models)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lamp_02 lowpoly" (https://sketchfab.com/3d-models/lamp-02-lowpoly-0f5519beb6644e5ea714055382c20d5f) by chris_models (https://sketchfab.com/chris_models) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

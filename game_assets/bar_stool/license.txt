@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bar Stool
+* source:	https://sketchfab.com/3d-models/bar-stool-518fe01989904bf48a4a04980bc578af
+* author:	CommonSpence (https://sketchfab.com/commonspence)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bar Stool" (https://sketchfab.com/3d-models/bar-stool-518fe01989904bf48a4a04980bc578af) by CommonSpence (https://sketchfab.com/commonspence) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
